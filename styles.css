@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cherry+Cream+Soda&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cherry+Cream+Soda&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.dark-mode {
+    background-color: rgb(101, 98, 45);
+    color: rgb(8, 8, 8);
+}
+
+.dark {
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+}
+
+body { 
+    background-color: rgb(233, 214, 121);
+}
+
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: wheat;
+    
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+nav {
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav li {
+    display: inline-block; 
+    width: 150px;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+
+form{
+	display: block;
+	width: 300px;
+	padding: 1em;
+	margin: 0 auto;
+	color: #222;
+	font-size: 1.1em;
+
+}
+
+input, label, fieldset{
+	display: block;
+	width: 95%;
+    padding: 3px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.button-2 {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 2px;
+}
+
+.error {
+    color: rgb(164, 37, 37);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}

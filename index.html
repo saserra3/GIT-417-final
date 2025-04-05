@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Golden Triangle Coffee</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" async></script>
+        <script src="https://kit.fontawesome.com/20a632bcec.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Golden Triangle Coffee</h1>
+            <nav>
+                <ul>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="dark" onclick="myFunction()"><i class="fa-solid fa-moon"></i></button>
+
+        </header>
+
+        <main>
+            <section id="shop" src="#shop">
+                <h2>Shop Our Coffee Beans</h2>
+
+
+
+            </section>
+
+            
+            <section id="contact">
+                <h2>Contact Us</h2>
+
+                <div class="contact-container">
+                    <div class="side"></div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea id="comments" name="comments"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Contact Method</label>
+                            <label><input type="radio" name="contactMethod" value="email" checked> Email</label>
+                            <label><input type="radio" name="contactMethod" value="phone"> Phone</label>
+                        </div>
+                        <button type="submit" class="button-2">Submit</button>
+                    </form>
+                </div>
+                <div id="formMessage"></div>
+
+            </section>
+        </main>
+
+        <footer>
+
+            <small> &copy; 2025 Golden Triangle Coffee</small>
+
+        </footer>
+
+
+        <div id="toastContainer" class="toast-container"></div>
+
+
+    </body>
